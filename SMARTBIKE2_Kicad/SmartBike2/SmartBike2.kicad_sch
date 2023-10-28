@@ -1,0 +1,52 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ec60d9f0-678c-40dc-aaf4-e99b29a92238)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 232.41 35.56) (size 26.67 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 524d1916-2b88-4ec8-8df8-acd48937d478)
+    (property "Sheetname" "Luces" (at 232.41 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "luces.kicad_sch" (at 232.41 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "CtrLuces" input (at 232.41 39.37 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2b193df0-8da8-4011-b7ee-2962032a3eeb)
+    )
+    (instances
+      (project "SmartBike2"
+        (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 24.13 167.64) (size 21.59 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8a73f375-5f15-4f8a-9cf1-d44bcebb5d36)
+    (property "Sheetname" "Alimentacion" (at 24.13 166.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "alimentacion.kicad_sch" (at 24.13 186.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SmartBike2"
+        (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
