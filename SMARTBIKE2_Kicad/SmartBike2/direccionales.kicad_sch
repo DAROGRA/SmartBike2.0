@@ -1079,7 +1079,7 @@
     (property "Reference" "R4" (at 106.68 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (at 106.68 60.96 0)
+    (property "Value" "2k" (at 106.68 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 102.362 59.69 90)
