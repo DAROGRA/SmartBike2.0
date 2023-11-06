@@ -742,9 +742,9 @@
     (property "Check_prices" "https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda" (at 219.71 58.42 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "1" (uuid dead5995-ff83-43e4-b170-c1ef60684aeb))
-    (pin "2" (uuid 33512c78-ceb4-45e8-9c13-af03dbcdf041))
-    (pin "3" (uuid 3ba837cf-05f8-4a74-9c4d-3d2b1af9c492))
+    (pin "1" (uuid 9d13e7e5-9b60-4862-99d2-5fe7e06e7e02))
+    (pin "2" (uuid ee07e27f-bf22-49be-b0bf-1496a76dcdb1))
+    (pin "3" (uuid 7aef8843-9e0a-45d4-8a6a-fb1c26653185))
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
@@ -772,7 +772,7 @@
     (property "Datasheet" "" (at 195.58 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd1fd76a-76e9-4729-b469-0d076eed987a))
+    (pin "1" (uuid 7064980c-a188-41dc-a7af-c5b328795fe9))
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
@@ -829,7 +829,7 @@
     (property "Datasheet" "" (at 81.28 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 71465b3b-17f4-4be0-af87-2c5fed880b12))
+    (pin "1" (uuid 1da6412a-d14e-4a01-8c16-b031d15432d5))
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
@@ -939,7 +939,7 @@
     (property "Reference" "R10" (at 83.82 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1M" (at 83.82 139.7 0)
+    (property "Value" "220k" (at 83.82 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (at 83.058 138.43 90)
@@ -948,8 +948,8 @@
     (property "Datasheet" "~" (at 81.28 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a31facb-fc8b-483e-aa67-ad3ef7fb78be))
-    (pin "2" (uuid 0304a4ad-3aa5-4678-b2d5-422df20b04dc))
+    (pin "1" (uuid 6ab500d3-cccc-4e80-8bd0-eb5752cb5d75))
+    (pin "2" (uuid fdf64e43-86de-4f6b-b37a-62b4c85461e2))
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
@@ -1001,9 +1001,9 @@
     (property "Check_prices" "https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda" (at 195.58 58.42 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "1" (uuid 7f632953-bc0d-43bd-ac63-5578fd9f8262))
-    (pin "2" (uuid 7807f723-2567-4f88-9d5e-ba5896e9447a))
-    (pin "3" (uuid 5adad108-cbf4-4721-9d73-984daae504f6))
+    (pin "1" (uuid 175ffe46-16cb-45e0-8efa-4af0c9381ddd))
+    (pin "2" (uuid 07d2f270-a266-4f47-99f5-a32fbf9dd526))
+    (pin "3" (uuid bab419de-17dd-4b84-9546-6da403ed15f9))
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
@@ -1031,8 +1031,8 @@
     (property "Datasheet" "~" (at 72.39 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9358f8aa-87b5-4ca4-b734-032a0c08b52a))
-    (pin "2" (uuid ce0993c6-6f3e-434a-87d5-c8a653e34515))
+    (pin "1" (uuid 504897d4-6744-4f26-a0ee-cde3b4c7963d))
+    (pin "2" (uuid c219a758-6590-496b-8990-484ec352d869))
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
@@ -1117,7 +1117,7 @@
     (property "Datasheet" "" (at 219.71 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a053b44-8281-429b-84c6-b1fb3eb4d718))
+    (pin "1" (uuid 635ba5ce-83a4-421f-b8d2-86db2ec073fb))
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
