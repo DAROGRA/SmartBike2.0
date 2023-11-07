@@ -116,6 +116,23 @@
     )
   )
 
+  (sheet (at 58.42 40.64) (size 48.26 67.31) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d67ecd18-be4e-4f76-8e16-267979972bcc)
+    (property "Sheetname" "Acondicionamiento" (at 58.42 39.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "acondicionamiento.kicad_sch" (at 58.42 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SmartBike2"
+        (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238" (page "8"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
