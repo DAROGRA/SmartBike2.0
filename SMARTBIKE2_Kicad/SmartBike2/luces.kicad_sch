@@ -776,7 +776,7 @@
   (symbol (lib_id "power:GND") (at 76.2 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f9f7292-b7c3-4bd9-8db7-756d13d17138)
-    (property "Reference" "#PWR09" (at 76.2 76.2 0)
+    (property "Reference" "#PWR011" (at 76.2 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 74.93 0)
@@ -792,7 +792,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -801,7 +801,7 @@
   (symbol (lib_id "power:+5V") (at 88.9 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d0ad23e-b81c-42b7-ada9-2bfe01a5cbc9)
-    (property "Reference" "#PWR07" (at 88.9 34.29 0)
+    (property "Reference" "#PWR012" (at 88.9 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 88.9 25.4 0)
@@ -817,7 +817,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -852,7 +852,7 @@
   (symbol (lib_id "Transistor_FET:FDN340P") (at 114.3 44.45 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 627aae03-31f4-4bf6-a900-62e5b31aad3d)
-    (property "Reference" "Q1" (at 120.65 45.72 0)
+    (property "Reference" "Q2" (at 120.65 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FDN340P" (at 120.65 43.18 0)
@@ -870,7 +870,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -911,7 +911,7 @@
   (symbol (lib_id "Device:R") (at 76.2 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 680a1925-567e-4646-a806-2c030fbffe4c)
-    (property "Reference" "R7" (at 78.74 59.69 0)
+    (property "Reference" "R5" (at 78.74 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 78.74 62.23 0)
@@ -928,7 +928,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "R7") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -937,7 +937,7 @@
   (symbol (lib_id "Device:R") (at 62.23 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76cfd5aa-cb35-4204-9f13-d0dffa5f98d6)
-    (property "Reference" "R8" (at 62.23 48.26 90)
+    (property "Reference" "R4" (at 62.23 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 62.23 50.8 90)
@@ -954,7 +954,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "R8") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -963,7 +963,7 @@
   (symbol (lib_id "power:+5V") (at 116.84 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e97f451-e9de-4280-aa34-32966612b421)
-    (property "Reference" "#PWR08" (at 116.84 34.29 0)
+    (property "Reference" "#PWR014" (at 116.84 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 116.84 25.4 0)
@@ -979,7 +979,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -988,7 +988,7 @@
   (symbol (lib_id "SI2302:SI2302") (at 88.9 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a46defce-a6a3-4aa7-a625-b6ae8a9fc5cc)
-    (property "Reference" "Q2" (at 91.44 50.6951 0)
+    (property "Reference" "Q1" (at 91.44 50.6951 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SI2302" (at 91.44 53.2351 0)
@@ -1030,7 +1030,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "Q2") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -1039,7 +1039,7 @@
   (symbol (lib_id "power:GND") (at 88.9 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bed9d03c-0a83-48fe-a21f-4121b7ec4717)
-    (property "Reference" "#PWR06" (at 88.9 76.2 0)
+    (property "Reference" "#PWR013" (at 88.9 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 74.93 0)
@@ -1055,7 +1055,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1064,7 +1064,7 @@
   (symbol (lib_id "power:GND") (at 58.42 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c35e3834-bc1e-454a-b9d8-5d8185b724bd)
-    (property "Reference" "#PWR035" (at 58.42 137.16 0)
+    (property "Reference" "#PWR010" (at 58.42 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 135.89 0)
@@ -1080,7 +1080,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1089,7 +1089,7 @@
   (symbol (lib_id "power:+5V") (at 58.42 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9484f94-e17f-4b7c-8f76-aa477dbda7ce)
-    (property "Reference" "#PWR034" (at 58.42 109.22 0)
+    (property "Reference" "#PWR09" (at 58.42 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 58.42 100.33 0)
@@ -1105,7 +1105,7 @@
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
