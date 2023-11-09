@@ -37,10 +37,6 @@
   )
 
 
-  (wire (pts (xy 116.84 104.14) (xy 125.73 104.14))
-    (stroke (width 0) (type default))
-    (uuid 037518c0-286f-4689-a048-d9c4bc1d6160)
-  )
   (wire (pts (xy 116.84 54.61) (xy 140.97 54.61))
     (stroke (width 0) (type default))
     (uuid 0bcb87fe-2c77-4f13-8bee-8664f3c8f02f)
@@ -61,10 +57,6 @@
     (stroke (width 0) (type default))
     (uuid 2f916d56-2c2a-4980-9040-b78fcbf706ec)
   )
-  (wire (pts (xy 125.73 110.49) (xy 152.4 110.49))
-    (stroke (width 0) (type default))
-    (uuid 3806b3d6-1b28-4204-8eae-f239987ba96d)
-  )
   (wire (pts (xy 130.81 99.06) (xy 116.84 99.06))
     (stroke (width 0) (type default))
     (uuid 4231ff09-34c8-47d8-9293-61bf5e0f6c43)
@@ -72,10 +64,6 @@
   (wire (pts (xy 140.97 41.91) (xy 152.4 41.91))
     (stroke (width 0) (type default))
     (uuid 456ad6d4-729c-494d-9eb3-f803dfa2aba8)
-  )
-  (wire (pts (xy 125.73 104.14) (xy 125.73 110.49))
-    (stroke (width 0) (type default))
-    (uuid 4eeb862d-7d57-4616-895c-b72739ec6eb0)
   )
   (wire (pts (xy 152.4 105.41) (xy 130.81 105.41))
     (stroke (width 0) (type default))
@@ -422,10 +410,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 1bbf6af5-fcc1-4d9b-af33-dcb2360eba9f)
     )
-    (pin "CtrGPSAc" input (at 152.4 110.49 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0248bf05-386a-48e3-817c-1904faeb8d25)
-    )
     (instances
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238" (page "7"))
@@ -495,10 +479,6 @@
     (pin "RstSIM" output (at 116.84 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid ae5bdf17-7401-4771-b960-0592c187ff1d)
-    )
-    (pin "Ctr_GPSAc" output (at 116.84 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid cadd2e68-0b38-4c15-a19f-ee5712ee4be8)
     )
     (instances
       (project "SmartBike2"
