@@ -1345,7 +1345,7 @@
     (property "Value" "10k" (at 137.16 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 139.7 53.34 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" (at 139.7 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 53.34 0)

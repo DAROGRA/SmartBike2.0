@@ -1608,7 +1608,7 @@
     (property "Value" "Buzzer" (at 212.09 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6" (at 207.645 95.25 90)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 207.645 95.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 207.645 95.25 90)
