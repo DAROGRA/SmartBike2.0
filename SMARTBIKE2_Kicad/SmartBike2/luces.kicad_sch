@@ -885,7 +885,7 @@
     (property "Value" "RJ45" (at 44.45 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" (at 44.45 118.745 90)
+    (property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE538X" (at 44.45 118.745 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 118.745 90)
