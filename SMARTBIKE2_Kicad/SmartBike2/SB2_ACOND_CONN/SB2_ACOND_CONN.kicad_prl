@@ -34,7 +34,6 @@
       3,
       4,
       5,
-      7,
       8,
       9,
       10,
@@ -69,7 +68,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "SB2_FEED_ALARM.kicad_prl",
+    "filename": "SB2_ACOND_CONN.kicad_prl",
     "version": 3
   },
   "project": {
