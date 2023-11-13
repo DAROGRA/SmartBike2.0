@@ -928,7 +928,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "+3.3_2" (shape input) (at 163.83 76.2 90) (fields_autoplaced)
+  (global_label "+3.3_2" (shape output) (at 163.83 76.2 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c9b6829d-b6c9-4dec-9fe2-77b58698b4f6)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 163.83 66.4415 90)

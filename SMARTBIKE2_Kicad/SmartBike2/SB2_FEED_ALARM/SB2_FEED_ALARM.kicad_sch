@@ -295,6 +295,11 @@
     (uuid f8d19e45-2b36-45c9-bca4-f39c4f75be04)
   )
 
+  (text "Conexión a placa con ESP32 y módulos." (at 135.89 109.22 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a8a3f230-7fce-4f77-bf1b-8489c470156e)
+  )
+
   (global_label "4.1V" (shape output) (at 168.91 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 580f351e-9045-47bd-a2e1-4d4abc7f2752)
@@ -302,7 +307,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "+3.3_2" (shape input) (at 158.75 26.67 90) (fields_autoplaced)
+  (global_label "+3.3_2" (shape output) (at 158.75 26.67 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b838fd1e-b77f-490d-98ee-b75d7bc6c996)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 158.75 16.9115 90)
