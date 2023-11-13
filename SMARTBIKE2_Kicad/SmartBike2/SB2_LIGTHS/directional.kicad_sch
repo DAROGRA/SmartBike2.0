@@ -698,7 +698,7 @@
           (reference "Q?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "Q3") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -707,7 +707,7 @@
   (symbol (lib_id "power:GND") (at 199.39 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f723d15-35a2-49f0-b316-2e1c1a15c281)
-    (property "Reference" "#PWR013" (at 199.39 74.93 0)
+    (property "Reference" "#PWR016" (at 199.39 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.39 73.66 0)
@@ -723,7 +723,7 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0/909612cf-4409-4fc4-b3f1-9d5011c79e82"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "SmartBike2"
@@ -731,7 +731,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -790,7 +790,7 @@
           (reference "Q?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "Q4") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -824,7 +824,7 @@
           (reference "C?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -858,7 +858,7 @@
           (reference "R?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -867,7 +867,7 @@
   (symbol (lib_id "power:GND") (at 223.52 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f654a19-caa9-4429-883a-6efa1ef9b1b9)
-    (property "Reference" "#PWR014" (at 223.52 74.93 0)
+    (property "Reference" "#PWR017" (at 223.52 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 73.66 0)
@@ -883,7 +883,7 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0/909612cf-4409-4fc4-b3f1-9d5011c79e82"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "SmartBike2"
@@ -891,7 +891,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -925,7 +925,7 @@
           (reference "R?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -965,7 +965,7 @@
           (reference "U?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "U3") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -974,7 +974,7 @@
   (symbol (lib_id "power:GND") (at 85.09 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b710fa18-0458-49f1-8315-95ee2744c2e2)
-    (property "Reference" "#PWR011" (at 85.09 152.4 0)
+    (property "Reference" "#PWR014" (at 85.09 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 151.13 0)
@@ -990,7 +990,7 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0/909612cf-4409-4fc4-b3f1-9d5011c79e82"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "SmartBike2"
@@ -998,7 +998,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1007,7 +1007,7 @@
   (symbol (lib_id "power:GND") (at 107.95 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba990ac1-00c8-4372-970e-fc81a3117e7a)
-    (property "Reference" "#PWR012" (at 107.95 81.28 0)
+    (property "Reference" "#PWR015" (at 107.95 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 80.01 0)
@@ -1023,7 +1023,7 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0/909612cf-4409-4fc4-b3f1-9d5011c79e82"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "SmartBike2"
@@ -1031,7 +1031,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1065,7 +1065,7 @@
           (reference "C?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1074,7 +1074,7 @@
   (symbol (lib_id "power:GND") (at 82.55 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb68472b-25cf-4bce-8007-0c8fabae0652)
-    (property "Reference" "#PWR010" (at 82.55 81.28 0)
+    (property "Reference" "#PWR013" (at 82.55 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 80.01 0)
@@ -1090,7 +1090,7 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0/909612cf-4409-4fc4-b3f1-9d5011c79e82"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "SmartBike2"
@@ -1098,7 +1098,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1132,7 +1132,7 @@
           (reference "R?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1166,7 +1166,7 @@
           (reference "R?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1175,7 +1175,7 @@
   (symbol (lib_id "power:GND") (at 44.45 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc04b1f9-d292-48be-9b7c-c86a722abc44)
-    (property "Reference" "#PWR09" (at 44.45 81.28 0)
+    (property "Reference" "#PWR012" (at 44.45 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 80.01 0)
@@ -1191,7 +1191,7 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0/909612cf-4409-4fc4-b3f1-9d5011c79e82"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "SmartBike2"
@@ -1199,7 +1199,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478/0d4ec164-0bb4-4f23-9c31-e9cf60421b3f"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )

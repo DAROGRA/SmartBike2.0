@@ -158,6 +158,51 @@
         )
       )
     )
+    (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x02" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x02_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -194,6 +239,35 @@
         (pin passive line (at 0 -3.81 90) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
         )
       )
     )
@@ -700,6 +774,10 @@
     (stroke (width 0) (type default))
     (uuid 13d4a6f3-817c-4462-8714-2ff7a4e2d09f)
   )
+  (wire (pts (xy 55.88 63.5) (xy 52.07 63.5))
+    (stroke (width 0) (type default))
+    (uuid 1437d45d-08cb-43c2-a0ba-c048a1303ba2)
+  )
   (wire (pts (xy 186.69 113.03) (xy 186.69 109.22))
     (stroke (width 0) (type default))
     (uuid 1e9a51b9-39d0-4450-b290-7c16c45b4b45)
@@ -796,9 +874,17 @@
     (stroke (width 0) (type default))
     (uuid baf55f3f-08b9-4911-957f-21aadbd36417)
   )
+  (wire (pts (xy 55.88 67.31) (xy 55.88 63.5))
+    (stroke (width 0) (type default))
+    (uuid c57a401e-879b-4964-8242-d5d6970eb0a1)
+  )
   (wire (pts (xy 182.88 113.03) (xy 186.69 113.03))
     (stroke (width 0) (type default))
     (uuid cb1d769e-a736-4bc3-b8ae-90fe22a24469)
+  )
+  (wire (pts (xy 52.07 60.96) (xy 55.88 60.96))
+    (stroke (width 0) (type default))
+    (uuid d7da2fbe-81d8-4c11-907f-b099d6ca334a)
   )
   (wire (pts (xy 182.88 128.27) (xy 189.23 128.27))
     (stroke (width 0) (type default))
@@ -828,7 +914,18 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 38d3ac76-5b0f-4aed-aa18-8738ffb446de)
   )
+  (text_box "Conexiónes"
+    (at 154.94 85.09 0) (size 119.38 62.23)
+    (stroke (width 0) (type dash))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid dcb7b7f0-0836-40e3-bcc4-755337911f11)
+  )
 
+  (label "CtrLuces" (at 173.99 54.61 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 47226b86-9ca3-432b-a59b-4dafcff9ff3d)
+  )
   (label "+VL" (at 237.49 54.61 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8267a073-18eb-4369-a4a3-82eeaaec3522)
@@ -841,16 +938,41 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c6aa1b4f-c7a8-4e53-b870-cf10e15d6302)
   )
+  (label "CtrLuces" (at 55.88 60.96 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e3153aec-144b-4ac6-9ab4-853c53c0c6e3)
+  )
 
-  (hierarchical_label "CtrLuces" (shape input) (at 173.99 54.61 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 426b5331-2e1f-46c6-ba17-c27d19050a72)
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 46.99 60.96 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 01b5c91f-58d2-4ab1-9635-6c4b86e22959)
+    (property "Reference" "J1" (at 46.99 54.61 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x02" (at 46.99 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" (at 46.99 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 46.99 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0295e9fd-f102-4dca-8d69-b57cd8d88d48))
+    (pin "2" (uuid 5ec0a874-3540-440a-bbb1-c5c20a2f61a7))
+    (instances
+      (project "SB2_LIGTHS"
+        (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 209.55 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18306d2b-5df1-4d8b-a6b2-b6f587e041fa)
-    (property "Reference" "#PWR03" (at 209.55 76.2 0)
+    (property "Reference" "#PWR010" (at 209.55 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 74.93 0)
@@ -866,12 +988,12 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -901,7 +1023,7 @@
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -932,7 +1054,7 @@
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -941,7 +1063,7 @@
   (symbol (lib_id "power:GND") (at 196.85 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2425993c-631b-429f-a4be-db0a30b50b58)
-    (property "Reference" "#PWR01" (at 196.85 76.2 0)
+    (property "Reference" "#PWR08" (at 196.85 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 74.93 0)
@@ -957,12 +1079,12 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -971,7 +1093,7 @@
   (symbol (lib_id "power:GND") (at 186.69 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2862853a-8ec8-4e35-9f90-3f27ea8b7785)
-    (property "Reference" "#PWR06" (at 186.69 140.97 0)
+    (property "Reference" "#PWR05" (at 186.69 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 139.7 0)
@@ -987,12 +1109,12 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1001,7 +1123,7 @@
   (symbol (lib_id "power:+5V") (at 237.49 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cc76966-9bfc-48b1-8662-36f858b7d164)
-    (property "Reference" "#PWR04" (at 237.49 34.29 0)
+    (property "Reference" "#PWR011" (at 237.49 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 237.49 25.4 0)
@@ -1017,12 +1139,12 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1054,7 +1176,31 @@
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "Q2") (unit 1)
+          (reference "Q?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 26.67 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 367a9a05-b496-4c94-88d0-4ac183385887)
+    (property "Reference" "H2" (at 29.21 135.89 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 29.21 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 26.67 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 26.67 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "SB2_LIGTHS"
+        (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -1063,7 +1209,7 @@
   (symbol (lib_id "Connector:RJ45") (at 172.72 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d9cc28a-5694-4045-b1c3-191f9f29d613)
-    (property "Reference" "J1" (at 172.72 105.41 0)
+    (property "Reference" "J2" (at 172.72 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RJ45" (at 172.72 107.95 0)
@@ -1086,12 +1232,36 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "J2") (unit 1)
+          (reference "J?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 49.53 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3f9d1992-1528-438e-930b-e89a05006683)
+    (property "Reference" "H3" (at 52.07 127 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 52.07 129.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 49.53 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "SB2_LIGTHS"
+        (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -1100,7 +1270,7 @@
   (symbol (lib_id "power:+5V") (at 55.88 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 520a3384-1960-433a-abd7-aa4606a3451e)
-    (property "Reference" "#PWR020" (at 55.88 38.1 0)
+    (property "Reference" "#PWR01" (at 55.88 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 55.88 29.21 0)
@@ -1116,7 +1286,7 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1125,7 +1295,7 @@
   (symbol (lib_id "power:+5V") (at 186.69 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57fb4588-2837-4d7f-bda4-de97b5f6a8f1)
-    (property "Reference" "#PWR05" (at 186.69 113.03 0)
+    (property "Reference" "#PWR04" (at 186.69 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 186.69 104.14 0)
@@ -1141,12 +1311,12 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1177,7 +1347,7 @@
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1186,7 +1356,7 @@
   (symbol (lib_id "power:GND") (at 55.88 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 611f4cd0-880a-4383-be17-fd4a925e6f7e)
-    (property "Reference" "#PWR021" (at 55.88 50.8 0)
+    (property "Reference" "#PWR02" (at 55.88 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 49.53 0)
@@ -1202,7 +1372,7 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1233,7 +1403,7 @@
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1248,7 +1418,7 @@
     (property "Value" "Conn_01x02" (at 46.99 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 46.99 38.1 0)
+    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" (at 46.99 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 46.99 38.1 0)
@@ -1265,10 +1435,34 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 26.67 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 70600951-e94e-4ae3-8dcf-c1ecf9b39d69)
+    (property "Reference" "H1" (at 29.21 127 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 29.21 129.54 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 26.67 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 26.67 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "SB2_LIGTHS"
+        (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 189.23 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72adfadc-b2b7-400a-9e46-2927162cb7d7)
-    (property "Reference" "#PWR08" (at 195.58 115.57 0)
+    (property "Reference" "#PWR06" (at 195.58 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 115.57 90)
@@ -1284,12 +1478,61 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 55.88 67.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7d74ee9c-74cf-48d5-b409-f879cbcfca7e)
+    (property "Reference" "#PWR03" (at 55.88 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 55.88 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 55.88 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 55.88 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 65b3c078-9517-4f97-9d8e-62c943b0eb59))
+    (instances
+      (project "SB2_LIGTHS"
+        (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 49.53 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ae5d0a58-ae2b-448e-82cd-4bd5292568b9)
+    (property "Reference" "H4" (at 52.07 135.89 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 52.07 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 49.53 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "SB2_LIGTHS"
+        (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -1345,7 +1588,7 @@
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "Q1") (unit 1)
+          (reference "Q?") (unit 1)
         )
       )
     )
@@ -1354,7 +1597,7 @@
   (symbol (lib_id "power:+5V") (at 209.55 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5ba1fa0-831b-4760-857d-408c5b51f811)
-    (property "Reference" "#PWR02" (at 209.55 34.29 0)
+    (property "Reference" "#PWR09" (at 209.55 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 209.55 25.4 0)
@@ -1370,12 +1613,12 @@
     (instances
       (project "SB2_LIGTHS"
         (path "/6a880830-3338-4ab6-8353-8160de28f9b0"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "SmartBike2"
         (path "/ec60d9f0-678c-40dc-aaf4-e99b29a92238/524d1916-2b88-4ec8-8df8-acd48937d478"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
