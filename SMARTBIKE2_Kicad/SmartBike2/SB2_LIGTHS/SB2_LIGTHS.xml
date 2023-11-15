@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\carlo\Documents\GitHub\SmartBike2.0\SMARTBIKE2_Kicad\SmartBike2\SB2_LIGTHS\SB2_LIGTHS.kicad_sch</source>
+    <date>14/11/2023 3:35:43 p. m.</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SB2_LIGTHS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>directional.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FrontLight.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70600951-e94e-4ae3-8dcf-c1ecf9b39d69</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>367a9a05-b496-4c94-88d0-4ac183385887</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f9d1992-1528-438e-930b-e89a05006683</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae5d0a58-ae2b-448e-82cd-4bd5292568b9</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01b5c91f-58d2-4ab1-9635-6c4b86e22959</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>RJ45</value>
+      <footprint>Connector_RJ:RJ45_Amphenol_RJHSE538X</footprint>
+      <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <property name="ki_keywords" value="8P8C RJ socket connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d9cc28a-5694-4045-b1c3-191f9f29d613</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Power_Conn_01x02" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6dbf8664-4481-4df9-a4b4-9a3f2f94b8da</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SI2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda</field>
+        <field name="Description">
+N-Channel 20V 2.6A (Ta) 710mW (Ta) Surface Mount SOT-23-3 (TO-236)
+</field>
+        <field name="MF">Micro Commercial Components (MCC)</field>
+        <field name="MP">SI2302</field>
+        <field name="Package">TO-236-3 Micro Commercial Components (MCC)</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="SI2302" part="SI2302" description=""/>
+      <property name="MF" value="Micro Commercial Components (MCC)"/>
+      <property name="Description" value="&#xA;N-Channel 20V 2.6A (Ta) 710mW (Ta) Surface Mount SOT-23-3 (TO-236)&#xA;"/>
+      <property name="Package" value="TO-236-3 Micro Commercial Components (MCC)"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=snap"/>
+      <property name="MP" value="SI2302"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4f3d167-c110-41ff-95f2-a788e60b6a3f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>FDN340P</value>
+      <footprint>Package_TO_SOT_SMD:SuperSOT-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="FDN340P" description="2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3200f93f-608b-4b51-acf6-7416c13a2d85</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69bd5aec-3f10-45da-85a0-699c9b470008</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e08a3d5-576d-4ae9-8bd3-e5269fa3e716</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SB2_LIGTHS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19a5f9e4-01e2-4450-a3d9-42083255b20e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Direccionales"/>
+      <property name="Sheetfile" value="directional.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/"/>
+      <tstamps>4577816e-0390-4b12-bb22-4ea2a6d35f3a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Sheetname" value="Direccionales"/>
+      <property name="Sheetfile" value="directional.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/"/>
+      <tstamps>d9bb6fa9-4731-4ec4-bb47-d08243391149</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>SI2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda</field>
+        <field name="Description">
+N-Channel 20V 2.6A (Ta) 710mW (Ta) Surface Mount SOT-23-3 (TO-236)
+</field>
+        <field name="MF">Micro Commercial Components (MCC)</field>
+        <field name="MP">SI2302</field>
+        <field name="Package">TO-236-3 Micro Commercial Components (MCC)</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="SI2302" part="SI2302" description=""/>
+      <property name="MF" value="Micro Commercial Components (MCC)"/>
+      <property name="Description" value="&#xA;N-Channel 20V 2.6A (Ta) 710mW (Ta) Surface Mount SOT-23-3 (TO-236)&#xA;"/>
+      <property name="Package" value="TO-236-3 Micro Commercial Components (MCC)"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=snap"/>
+      <property name="MP" value="SI2302"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Direccionales"/>
+      <property name="Sheetfile" value="directional.kicad_sch"/>
+      <sheetpath names="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/"/>
+      <tstamps>08170e71-5ae8-44d8-bf50-22577fe22703</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>SI2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda</field>
+        <field name="Description">
+N-Channel 20V 2.6A (Ta) 710mW (Ta) Surface Mount SOT-23-3 (TO-236)
+</field>
+        <field name="MF">Micro Commercial Components (MCC)</field>
+        <field name="MP">SI2302</field>
+        <field name="Package">TO-236-3 Micro Commercial Components (MCC)</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="SI2302" part="SI2302" description=""/>
+      <property name="MF" value="Micro Commercial Components (MCC)"/>
+      <property name="Description" value="&#xA;N-Channel 20V 2.6A (Ta) 710mW (Ta) Surface Mount SOT-23-3 (TO-236)&#xA;"/>
+      <property name="Package" value="TO-236-3 Micro Commercial Components (MCC)"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=snap"/>
+      <property name="MP" value="SI2302"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Direccionales"/>
+      <property name="Sheetfile" value="directional.kicad_sch"/>
+      <sheetpath names="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/"/>
+      <tstamps>326a6b0a-c0ea-4953-b88c-5fa214b329af</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Direccionales"/>
+      <property name="Sheetfile" value="directional.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/"/>
+      <tstamps>53fc2c8a-f74d-4bab-b68e-8f2a1b733ba2</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Direccionales"/>
+      <property name="Sheetfile" value="directional.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/"/>
+      <tstamps>82f713ee-2470-44a3-b413-09c7c18db21b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Direccionales"/>
+      <property name="Sheetfile" value="directional.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/"/>
+      <tstamps>f751a1ff-112a-4aea-bba4-f92503cf66b3</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Direccionales"/>
+      <property name="Sheetfile" value="directional.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/"/>
+      <tstamps>ebb0199e-2a9e-44c4-8f78-771417754215</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NA555D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Timer" part="NA555D" description="Precision Timers, 555 compatible, SOIC-8"/>
+      <property name="Sheetname" value="Direccionales"/>
+      <property name="Sheetfile" value="directional.kicad_sch"/>
+      <property name="ki_description" value="Precision Timers, 555 compatible, SOIC-8"/>
+      <property name="ki_keywords" value="single timer 555"/>
+      <sheetpath names="/Direccionales/" tstamps="/909612cf-4409-4fc4-b3f1-9d5011c79e82/"/>
+      <tstamps>941e4ffe-1a38-4939-a518-55a2c3de6885</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>dc5d71ec-c84d-4651-be4e-fdfe4ef2839e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>b40e73ab-66c3-4998-b5e1-db86588908b8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Power LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>2027ffea-bdde-4241-9f39-8801f8f83a90</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Detection LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>c9f8b022-020d-4d8d-8118-1df0c6032c77</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>SI2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda</field>
+        <field name="Description">
+N-Channel 20V 2.6A (Ta) 710mW (Ta) Surface Mount SOT-23-3 (TO-236)
+</field>
+        <field name="MF">Micro Commercial Components (MCC)</field>
+        <field name="MP">SI2302</field>
+        <field name="Package">TO-236-3 Micro Commercial Components (MCC)</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="SI2302" part="SI2302" description=""/>
+      <property name="MF" value="Micro Commercial Components (MCC)"/>
+      <property name="Description" value="&#xA;N-Channel 20V 2.6A (Ta) 710mW (Ta) Surface Mount SOT-23-3 (TO-236)&#xA;"/>
+      <property name="Package" value="TO-236-3 Micro Commercial Components (MCC)"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=snap"/>
+      <property name="MP" value="SI2302"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>28d860fd-c1f2-42b0-8867-c30027ddc0ce</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>e8c2230a-13bf-4c92-82cb-72c11ec3382f</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>468315be-ffa6-4983-a8a1-6eb89892e344</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>fd4ee689-ab23-4865-8447-7e3aec8b0169</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>cd325a69-d0b7-4ba9-b0b3-4a87034b67e4</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>LDR07</value>
+      <footprint>OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical</footprint>
+      <datasheet>http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf</datasheet>
+      <libsource lib="Sensor_Optical" part="LDR07" description="light dependent resistor"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="light dependent resistor"/>
+      <property name="ki_keywords" value="light dependent photo resistor LDR"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>93bc7389-8a7d-4486-be5f-b6e9e688a132</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>2dad3265-9a53-4fcc-94be-c35e13139ebf</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>32a7cd08-7c50-497d-ba03-c871df70fac1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM358</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM358" description="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="Sheetname" value="Luz Frontal"/>
+      <property name="Sheetfile" value="FrontLight.kicad_sch"/>
+      <property name="ki_description" value="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <sheetpath names="/Luz Frontal/" tstamps="/cd422d8b-ee8f-46af-a69c-1c2d75305e92/"/>
+      <tstamps>f55c9d5f-cc44-4eff-92fc-d88a98e4a892 c2a6ecdb-eb8a-49ce-acc0-5cbb52bfc020 88a04e19-7d0c-401f-8559-1feb69047649</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM358">
+      <description>Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="RJ45">
+      <description>RJ connector, 8P8C (8 positions 8 connected)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ31*</fp>
+        <fp>RJ32*</fp>
+        <fp>RJ33*</fp>
+        <fp>RJ34*</fp>
+        <fp>RJ35*</fp>
+        <fp>RJ41*</fp>
+        <fp>RJ45*</fp>
+        <fp>RJ49*</fp>
+        <fp>RJ61*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Conn_01x02" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="power_out"/>
+        <pin num="2" name="Pin_2" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SI2302" part="SI2302">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SI2302</field>
+        <field name="Footprint">SI2302:SOT23</field>
+        <field name="MF">Micro Commercial Components (MCC)</field>
+        <field name="Description">
+N-Channel 20V 2.6A (Ta) 710mW (Ta) Surface Mount SOT-23-3 (TO-236)
+</field>
+        <field name="Package">TO-236-3 Micro Commercial Components (MCC)</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=snap</field>
+        <field name="MP">SI2302</field>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SI2302/Micro+Commercial+Components/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Optical" part="LDR07">
+      <description>light dependent resistor</description>
+      <docs>http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf</docs>
+      <footprints>
+        <fp>R*LDR*5.1x4.3mm*P3.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">LDR07</field>
+        <field name="Footprint">OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical</field>
+        <field name="Datasheet">http://www.tme.eu/de/Document/f2e3ad76a925811312d226c31da4cd7e/LDR07.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="NA555D">
+      <description>Precision Timers, 555 compatible, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NA555D</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ne555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="FDN340P">
+      <description>2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDN340P</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power_Conn_01x02">
+      <uri>C:/Users/carlo/Documents/GitHub/SmartBike2.0/SMARTBIKE2_Kicad/symbolsLIB/PowerFeed/Power_Conn_01x02.kicad_sym</uri>
+    </library>
+    <library logical="SI2302">
+      <uri>C:/Users/carlo/Documents/GitHub/SmartBike2.0/SMARTBIKE2_Kicad/symbolsLIB/SI2302/SI2302.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Optical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Optical.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Timer.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="8" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="Pin_1" pintype="power_out"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/+VL">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="/CtrLuces">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Direccionales/TRIG">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="5" name="/Direccionales/V555">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="6" name="/Direccionales/VDD_der">
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="Q4" pin="3" pintype="passive"/>
+    </net>
+    <net code="7" name="/Direccionales/VDD_izq">
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="Q3" pin="3" pintype="passive"/>
+    </net>
+    <net code="8" name="/Direccionales/Vosc">
+      <node ref="Q3" pin="1" pintype="passive"/>
+      <node ref="Q4" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/Luz Frontal/VDD_FRONT">
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="Q5" pin="3" pintype="passive"/>
+    </net>
+    <net code="10" name="/Luz Frontal/Vop">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+    </net>
+    <net code="11" name="/Luz Frontal/Vswf">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="7" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="Pin_2" pintype="power_out"/>
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="Q3" pin="2" pintype="passive"/>
+      <node ref="Q4" pin="2" pintype="passive"/>
+      <node ref="Q5" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="13" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q2-G)">
+      <node ref="Q1" pin="3" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U1-CV)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U1-DIS)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U2A--)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pintype="output+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U2B-+-Pad5)">
+      <node ref="U2" pin="5" pinfunction="+" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U2B---Pad6)">
+      <node ref="U2" pin="6" pinfunction="-" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
