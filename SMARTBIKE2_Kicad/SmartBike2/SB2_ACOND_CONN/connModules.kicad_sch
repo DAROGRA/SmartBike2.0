@@ -378,8 +378,8 @@
     (uuid e847ee12-d8ac-4937-9d5b-790bdba28f22)
   )
 
-  (text "EL conector de la izq es pensado para la SIM800L, \nmientras que el de la derecha para SIMA7670AS.\n\nPor ello, se debe tener cuidado en la programación\ncon el pin \"RST\", ya que pueden tener diferente \nfunción para cada módulo.\n\nPara el módulo SIMA7670AS el nombre de \"RST\" es \nPWR_EN."
-    (at 15.24 147.32 0)
+  (text "Pines de propósito general compatibles con diversos módulos SIM.\n\nEstos pines deben ser conectados manualmente con cables."
+    (at 15.24 135.89 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 80e04ad9-22cd-4ae7-b560-7eac3a00e1a8)
   )
